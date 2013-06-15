@@ -39,3 +39,4 @@ sudo make install
 echo 'export PATH=/opt/local/bin:/opt/local/sbin:$PATH' >> ~/.bash_profile
 cd ..
 rm -fr "/tmp/MacPorts-${VER}"
+sudo /opt/local/bin/port -v selfupdate
